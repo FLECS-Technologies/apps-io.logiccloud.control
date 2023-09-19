@@ -1,0 +1,24 @@
+{
+    "app": "io.logiccloud.control",
+    "version": "##VERSION##",
+    "revision": "##FLECS_VERSION##",
+    "title": "logiccloud Control",
+    "author": "info@logiccloud.io",
+    "image": "flecs.azurecr.io/io.logiccloud.control",
+    "description": "Virtual IEC 61131 industrial controller",
+    "avatar": "",
+    "category": "control",
+    "multiInstance": false,
+    "editor": ":8090",
+    "args": [],
+    "capabilities": [],
+    "conffiles": [],
+    "devices": [],
+    "env": [],
+    "interactive": false,
+    "ports": [
+        "8090:8090"
+    ],
+    "startupOptions": [],
+    "volumes": []
+}
