@@ -1,4 +1,5 @@
 {
+    "_schemaVersion": "2.0.0",
     "app": "io.logiccloud.control",
     "version": "##VERSION##",
     "revision": "##FLECS_VERSION##",
