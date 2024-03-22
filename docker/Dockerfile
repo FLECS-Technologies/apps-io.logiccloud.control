@@ -7,9 +7,3 @@ ARG VARIANT
 
 FROM logiccloud/logiccloud-control:${VERSION}
 
-ARG ARCH
-ARG VERSION
-ARG VARIANT
-
-RUN [ ! -z "${ARCH}" ]
-RUN [ ! -z "${VERSION}" ]
