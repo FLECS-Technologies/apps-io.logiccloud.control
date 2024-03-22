@@ -17,5 +17,5 @@
         "18080:18080"
     ],
     "startupOptions": [],
-    "volumes": []
+    "volumes": [ "logiccloud-storage:/app/storage" ]
 }
