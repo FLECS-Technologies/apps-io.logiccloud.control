@@ -5,7 +5,7 @@ ARG ARCH
 ARG VERSION
 ARG VARIANT
 
-#FROM scratch:${VERSION}
+FROM logiccloud/logiccloud-control:${VERSION}
 
 ARG ARCH
 ARG VERSION
