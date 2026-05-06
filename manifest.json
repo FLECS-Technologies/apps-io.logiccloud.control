@@ -1,21 +1,16 @@
 {
-    "_schemaVersion": "2.0.0",
+    "$schema": "https://raw.githubusercontent.com/FLECS-Technologies/app-sdk/main/manifest.schema.json",
+    "_schemaVersion": "3.0.0",
     "app": "io.logiccloud.control",
-    "version": "##VERSION##",
-    "revision": "##FLECS_VERSION##",
+    "version": "4.21.5",
     "image": "flecs.azurecr.io/io.logiccloud.control",
-    "multiInstance": false,
-    "editor": ":8090",
-    "args": [],
-    "capabilities": [],
-    "conffiles": [],
-    "devices": [],
-    "env": [],
-    "interactive": false,
+    "editors": [{
+        "name": "logiccloud Control",
+        "port": 8080,
+        "supportsReverseProxy": true
+    }],
     "ports": [
-        "8090:80",
-        "18080:18080"
+        "42010-42011"
     ],
-    "startupOptions": [],
     "volumes": [ "logiccloud-storage:/app/storage" ]
 }
